@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(159, 196, 245);
+}
+
+.início{
+    background-color: #691212;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    font-size: 25px;
+    font-family: Roboto, Helvetica, sans-serif;
+    
+}
+
+.Quadrado1{
+    background: linear-gradient(90deg,#8e85e0,#170f5f);
+    width: 100px;
+    height: 100px;
+    animation-duration: 2s;
+    animation-name: Quadrado1;
+    position: relative;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes Quadrado1 {
+
+0%{left: 0px;}
+50%{left: 600px;}
+100%{left: 0px;}
+
+}
+
+
+.Quadrado2{
+    background: linear-gradient(360deg,#8e85e0,#170f5f);
+    width: 100px;
+    height: 100px;
+    margin-left: 1100px;
+    animation-duration: 2s;
+    animation-name: Quadrado2;
+    position: relative;
+    animation-iteration-count: infinite;
+ 
+}
+
+
+@keyframes Quadrado2 {
+
+    0%{bottom: 0px;}
+    50%{bottom: 120px;}
+    100%{bottom: 0px;}
+}
+
+.Quadrado3{
+    background: #1900ff;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 120px;
+  
+
+
+
+}
+.Quadrado3:hover{
+    border-radius: 200px;
+    background: #968fdb;
+}
+
+
+
+
+footer{
+    background-color: #691212;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    font-size: 25px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+    
+
+

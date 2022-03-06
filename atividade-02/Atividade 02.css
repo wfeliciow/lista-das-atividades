@@ -1,0 +1,43 @@
+.Texto{
+    margin: 15px;
+    font-size: 10,5px;
+}
+
+
+.area_img{
+    margin: 15px;
+}
+
+img{
+    margin: 10px 100px;
+
+}
+
+.primeiro{
+    background-color: #00ff00;
+}
+
+.segundo{
+    background-color: #f00;
+}
+
+.terceiro{
+    background-color: #00008b;
+}
+
+.quarto{
+    background-color: #ff00ff;
+}
+
+.fim{
+    margin: 15px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+.subtítulo{
+    font-size: 25px;
+}
+

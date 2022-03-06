@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário </title>
+    <link rel="stylesheet" href="Atividade 03.css" />
+    <meta name="color-scheme" content="light dark">
+    <title> Cadastro de</title>
+    <meta name="viewport" content="initial-scale=1">
+</head>
+
+<body>
+
+
+    <br> <br>
+    <form action="formulario" method="GET">
+
+        <fieldset>
+
+            <legend></legend>  <!-- Para que o legende "Dados pessoais" fique dentro da tag fieldset-->
+            <legend class="topos">Dados Pessoais</legend>
+            <label for="nome">Nome Completo:* </label>
+            <input type="text" name="nome" id="nome" required maxlength="100" />
+            <br />
+            <label for="email">Email:* </label>
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="Cel"> Celular:*</label>
+            <input type="number " name="Cel" id="Cel" required />
+            <br />
+            <label for="Endereço"> Endereço:</label>
+            <input type="tex" name="Endereço" id="Endereço" />
+            <br />
+            <label for="CEP"> CEP:</label>
+            <input type="text" name="CEP" id="CEP" maxlength="8" />
+            <br />
+            <label for="nascimento"> Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento" required max="2004-01-01" />
+            <br><br><br><br>
+            <legend class="topos">Dados Escolares:</legend>
+            <label for="nomedocurso1"> Nome do Curso 1:*</label>
+            <input type="text" name="nomedocurso1" id="nomedocurso1" required />
+            <br />
+            <label for="horascurso1"> Horas:*</label>
+            <input type="number" name="horascurso1" id="horascurso1" required />
+            <br />
+            <label for="conclusãocurso1"> Mês/Ano de Conclusão:*</label>
+            <input type="month" name="conclusãocurso1" id="conclusãocurso1" required min="2015-01" />
+            <br /><br />
+            <label for="nomedocurso2"> Nome do Curso 2:*</label>
+            <input type="text" name="nomedocurso2" id="nomedocurso2" required />
+            <br />
+            <label for="horascurso2"> Horas:*</label>
+            <input type="number" name="horascurso2" id="horascurso2" required />
+            <br />
+            <label for="conclusãocurso2"> Mês/Ano de Conclusão:*</label>
+            <input type="month" name="conclusãocurso2" id="conclusãocurso2" required min="2015-01" />
+            <br /><br />
+            <label for="nomedocurso3"> Nome do Curso 3:*</label>
+            <input type="text" name="nomedocurso3" id="nomedocurso3" required />
+            <br />
+            <label for="horascurso3"> Horas:*</label>
+            <input type="number" name="horascurso3" id="horascurso3" required />
+            <br />
+            <label for="conclusãocurso3"> Mês/Ano de Conclusão:* </label>
+            <input type="month" name="conclusãocurso3" id="conclusãocurso3" required min="2015-01" />
+
+
+            < <br><br><br><br>
+
+                <legend class="topos"> Dados Profissionais:</legend>
+                <label for="nomeempresa1"> Nome da Empresa 1:*</label>
+                <input type="text" name="nomeempresa1" id="nomeempresa1" required />
+                <br />
+                <label for="atual1"> Atual?*</label>
+                <select id="atual1" required>
+                    <option value="selected"> Sim </option>
+                    <option value="N"> Não </option>
+                    <option value="Y"> Sim </option>
+
+                </select>
+                <br />
+                <label for="tempoempresa1"> Tempo de Trabalho:*</label>
+                <input type="text" name="tempoempresa1" id="tempoempresa1" required />
+                <br />
+                <label for="cargoempresa1"> Cargo:</label>
+                <input type="text" name="cargoempresa1" id="cargoempresa1" />
+                <br />
+                <label for="descrição1"> Descrição das Atividaes:</label>
+                <textarea id="descrição1"> </textarea>
+                <br /><br />
+                <label for="nomeempresa2"> Nome da Empresa 2:*</label>
+                <input type="text" name="nomeempresa2" id="nomeempresa2" required />
+                <br />
+                <label for="atual2"> Atual?*</label>
+                <select id="atual2" required>
+                    <option value="selected"> Sim </option>
+                    <option value="N"> Não </option>
+                    <option value="Y"> Sim </option>
+                </select>
+                <br />
+                <label for="tempoempresa2"> Tempo de Trabalho:*</label>
+                <input type="text" name="tempoempresa2" id="tempoempresa2" required />
+                <br />
+                <label for="cargoempresa2"> Cargo:</label>
+                <input type="text" name="cargoempresa2" id="cargoempresa2" />
+                <br />
+                <label for="descrição2"> Descrição das Atividaes:</label>
+                <textarea id="descrição2"> </textarea>
+                <br /><br />
+                <label for="nomeempresa3"> Nome da Empresa 3:*</label>
+                <input type="text" name="nomeempresa3" id="nomeempresa3" required />
+                <br />
+                <label for="atual3"> Atual?*</label>
+                <select id="atual3" required>
+                    <option value="selected"> Sim </option>
+                    <option value="N"> Não </option>
+
+                    <option value="Y"> Sim </option>
+                </select>
+                <br />
+                <label for="tempoempresa3"> Tempo de Trabalho:*</label>
+                <input type="text" name="tempoempresa3" id="tempoempresa3" required />
+                <br />
+                <label for="cargoempresa3"> Cargo:</label>
+                <input type="text" name="cargoempresa3" id="cargoempresa3" />
+                <br />
+                <label for="descrição3"> Descrição das Atividaes:</label>
+                <textarea id="descrição3"> </textarea>
+                <br /> <br />
+
+        </fieldset>
+
+        <br> <br>
+        <input type="checkbox" name="autorização" id="autorização" required />
+        <label class="checkbox" for="autorização"> Eu autorizo a coleta e a utilização dos meu dados.</label>
+        <button> Salvar </button>
+    </form>
+
+    <br />
+
+
+</body>
+
+</html>

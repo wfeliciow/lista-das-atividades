@@ -1,0 +1,91 @@
+fieldset{
+    background-color: #1b221bb3;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 200px;
+    color: #ffffff;
+    width: 50%; 
+    margin: 0px auto;
+    
+    
+}
+
+
+
+label{
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.checkbox{
+    display: inline;
+    padding: 0px;
+    width: 0px;
+    margin: 20px 300px 20px 2px;
+}
+
+
+
+body{
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select{
+    border: 5px solid #000000;
+    padding: 10px;
+    width: 500px; ;
+    border-radius: 10px;
+    font-size: 35px;
+    background: #c0c0c0;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    color: #000000;
+    width: 80%;
+    letter-spacing: 3px;
+}
+
+#autorização{
+    width: 25px;
+    margin: 20px 2px 20px 500px;
+}
+
+button{
+    background: #c0c0c0;
+    font-weight: bold;
+    color: #000;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin: 20px 900px 20px 380px;
+    border: 3px solid #000;
+    
+    font-size: 25px;
+}
+
+select{
+    width: 530px;
+    
+}
+
+button:hover{
+    background: #5a4141;;
+    font-weight: bold;
+    color: #000;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin: 20px 900px 20px 380px;
+    border: 3px solid #000;
+    font-size: 25px;
+}
+
+
+legend{
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
